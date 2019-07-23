@@ -13,7 +13,27 @@ body {
 
 svg {
     position: absolute;
+    animation: bounceIn 4s;
     left: calc(50% - 50px);
     top: calc(50% - 50px);
 }
+@keyframes bounceIn{
+0%{
+transform scale (0,1);
+opacity:1;
+
+}
+100%{
+    transform scale(1);
+    opacity:1;
+}
+
+
+
+
+}
+
+
+
+
 
